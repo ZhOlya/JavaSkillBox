@@ -27,9 +27,9 @@ public class Basket {
         return count;
     }
 
-    public static double getTotalWeight(){
+    /*public double getTotalWeight(){
         return totalWeight;
-    }
+    }*/
 
     public static void increaseCount(int count) {
         Basket.count = Basket.count + count;
@@ -82,7 +82,7 @@ public class Basket {
     public void print(String title) {
         System.out.println(title);
         if (items.isEmpty()) {
-            System.out.println("Корзина пуста");
+            System.out.println("Basket is empty");
         } else {
             System.out.println(items);
             System.out.println("Total weight: " + totalWeight + " gr");

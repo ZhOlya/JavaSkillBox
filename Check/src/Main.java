@@ -1,11 +1,28 @@
-public class Main {
-    public static void main(String[] args) {
-        for (int i = 0; i < 10;){
-            if (i < 5) {
-                i = i + 1;
-            }
-            i = i + 1;
-            System.out.println("Yes");
+import java.util.Scanner;
+
+//your code goes here
+public class Converter{
+    static String toBinary (int num) {
+        String binary = "";
+        while (num > 0) {
+            binary = (num %2) + binary;
+            num /= 2;
         }
+        return binary;
     }
 }
+
+public class Program {
+    public static void main(String[ ] args) {
+        Scanner sc = new Scanner(System.in);
+        int x = sc.nextInt();
+        System.out.print(Converter.toBinary(2)) ;
+    }
+}
+/* цикл для преоброзования num в двоичный и
+ сохраняет рез. в строку binary
+String binary="";
+while(num > 0) {
+   binary = (num%2)+binary;
+   num /= 2;
+} */
