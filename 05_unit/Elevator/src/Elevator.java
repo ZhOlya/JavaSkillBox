@@ -16,31 +16,43 @@
 этаж после каждого перемещения между этажами.
  */
 public class Elevator {
-    private int currentFloor = 1;
-    private int minFloor;
-    private int maxFloor;
-
-
-    public int getCurrentFloor() {
-        return currentFloor;
-    }
+    protected int currentFloor = 1;
+    protected int minFloor;
+    protected int maxFloor;
 
     public Elevator(int minFloor, int maxFloor) {
         this.minFloor = minFloor;
         this.maxFloor = maxFloor;
     }
 
+    public int getCurrentFloor() {
+        return currentFloor;
+    }
+
+
+    /**
+     * Метод, поднимающий лифт на 1 этаж вверх
+     */
     public void moveUp() {
         currentFloor = currentFloor < maxFloor ? currentFloor + 1 : currentFloor;
         System.out.println(currentFloor);
     }
 
+    /**
+     * Метод, опускающий лифт на 1 этаж вниз
+     */
     public void moveDown() {
         currentFloor = currentFloor > minFloor ? currentFloor - 1 : currentFloor;
         System.out.println(currentFloor);
     }
 
-    public void move(int floor){
+    /**
+     * Метод, двигающий лифт, в зависимости от выбранного этажа, при этом отражающий в консоли текущий этаж.
+     * При выборе неверного этажа, отображается ошибка
+     *
+     * @param floor заданный этаж пользователем
+     */
+    public void move(int floor) {
         while (floor != currentFloor) {
             if (floor >= minFloor && floor < currentFloor) {
                 moveDown();
@@ -51,5 +63,17 @@ public class Elevator {
                 break;
             }
         }
+
     }
 }
+
+           /* while (floor != currentFloor) {
+                if (floor >= minFloor && floor < currentFloor) {
+                    moveDown();
+                } else if (floor <= maxFloor && floor > currentFloor) {
+                    moveUp();
+                } else {
+                    System.out.println("Wrong number floor");
+
+                }
+            }*/
