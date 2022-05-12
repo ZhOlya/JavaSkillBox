@@ -48,7 +48,7 @@ public class Dimensions {
         return "Latitude: " + latitude + "cm" + "\n"+
                 "Height: " + height + "cm" + "\n"+
                 "Lenght: " + lenght + "cm" + "\n"+
-                "Volume: " + volume() + "cm 3";
+                "Volume: " + volume() + "cm 3"+ "\n";
 
 
 

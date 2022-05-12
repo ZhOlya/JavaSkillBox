@@ -80,10 +80,10 @@ public class Cargo {
     }
 
     public String toString(){
-        return dimensions + "/n"+
-                "Weight: "+ weight + "kg"+ "/n"+
-                "Address: " + address + "/n"+
-                "Registation number: " + registrationNumber + "/n"+
+        return "Dimensions: " + dimensions + "\n"+
+                "Weight: "+ weight + "kg"+ "\n"+
+                "Address: " + address + "\n"+
+                "Registation number: " + registrationNumber + "\n"+
                 "Fragile: " + fragile;
     }
 }
