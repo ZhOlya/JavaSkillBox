@@ -14,18 +14,20 @@
 √абариты Ч ширина, высота и длина Ч должны хранитьс€ в отдельном иммутабельном классе
  Dimensions. —оздайте класс Dimensions с соответствующими пол€ми и реализуйте в нЄм метод
  вычислени€ объЄма груза (название метода придумайте самосто€тельно).
+
+
 –еализуйте в классе методы, дающие возможность измен€ть адрес доставки, габариты и массу груза
  без изменени€ исходного объекта путЄм создани€ его копии.
  */
 public class Cargo {
     private final Dimensions dimensions;
-    private final int weight;
+    private final double weight;
     private final String address;
     private final String registrationNumber;
     private final boolean fragile;
 
     public Cargo(Dimensions dimensions,
-                 int weight,
+                 double weight,
                  String address,
                  String registrationNumber,
                  boolean fragile) {
@@ -50,7 +52,7 @@ public class Cargo {
         return new Cargo(dimensions, weight, address, registrationNumber, fragile); //ѕочему в круглых скобках не белым цветом?
     }
 
-    public Cargo setWeight (int weight){
+    public Cargo setWeight (double weight){
         return new Cargo(dimensions, weight, address, registrationNumber, fragile);
     }
 
@@ -63,7 +65,7 @@ public class Cargo {
         return dimensions;
     }
 
-    public int getWeight() {
+    public double getWeight() {
         return weight;
     }
 

@@ -9,11 +9,6 @@ public class Dimensions {
         this.lenght = lenght;
     }
 
-    public Dimensions (){
-        latitude = 0;
-        height = 0;
-        lenght = 0;
-    }
 
     public double getLatitude() {
         return latitude;
@@ -25,6 +20,10 @@ public class Dimensions {
 
     public double getLenght() {
         return lenght;
+    }
+
+    public Dimensions changeDimensions (double latitude, double height, double lenght){
+        return new Dimensions(latitude, height, lenght);
     }
 
     public Dimensions setLatitude(double latitude) {
@@ -43,14 +42,10 @@ public class Dimensions {
         return latitude * height * lenght;
     }
 
-
     public String toString (){
         return "Latitude: " + latitude + "cm" + "\n"+
                 "Height: " + height + "cm" + "\n"+
                 "Lenght: " + lenght + "cm" + "\n"+
                 "Volume: " + volume() + "cm 3"+ "\n";
-
-
-
-    }
+            }
 }
