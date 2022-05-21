@@ -47,7 +47,7 @@ public class Basket {
     public static int getCount() {
         return count;
     }
-    
+
     public static void increaseCount(int count) {
         Basket.count = Basket.count + count;
     }
