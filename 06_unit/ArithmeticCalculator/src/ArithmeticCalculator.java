@@ -1,20 +1,20 @@
 public class ArithmeticCalculator {
-    public int x;
-    public int y;
+    public double x;
+    public double y;
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
-    public void setY(int y) {
+    public void setY(double y) {
         this.y = y;
     }
 /*    public ArithmeticCalculator(int x, int y) {
@@ -27,6 +27,13 @@ public class ArithmeticCalculator {
             case ADD -> System.out.println("Sum: " + (x + y));
             case SUBTRACT -> System.out.println("Difference: " + (x - y));
             case MULTIPLY -> System.out.println("Product: " + (x * y));
+            case DIVISION -> {
+                if ( y == 0){
+                    System.out.println("It cannot be divided by 0");
+                } else {
+                    System.out.println("Quotient: " + (x / y));
+                }
+            }
         }
 
     }
