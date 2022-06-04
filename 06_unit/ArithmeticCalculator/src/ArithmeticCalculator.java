@@ -9,9 +9,9 @@ public class ArithmeticCalculator {
 
     public void calculate (Operation operation){
         switch (operation){
-            case ADD -> System.out.println("Sum: " + x + y);
+            case ADD -> System.out.println("Sum: " + (x + y));
             case SUBTRACT -> System.out.println("Difference: " + (x - y));
-            case MULTIPLY -> System.out.println("Product: " + x * y);
+            case MULTIPLY -> System.out.println("Product: " + (x * y));
         }
 
     }
