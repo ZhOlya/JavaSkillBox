@@ -28,11 +28,17 @@ public class ArithmeticCalculator {
             case SUBTRACT -> System.out.println("Difference: " + (x - y));
             case MULTIPLY -> System.out.println("Product: " + (x * y));
             case DIVISION -> {
-                if ( y == 0){
+                try{
+                    double res = x / y;
+                    System.out.println("Quotient: " + res);
+                } catch (ArithmeticException e){
                     System.out.println("It cannot be divided by 0");
-                } else {
-                    System.out.println("Quotient: " + (x / y));
                 }
+//                if ( y == 0){
+//                    System.out.println("It cannot be divided by 0");
+//                } else {
+//                    System.out.println("Quotient: " + (x / y));
+//                }
             }
         }
 
