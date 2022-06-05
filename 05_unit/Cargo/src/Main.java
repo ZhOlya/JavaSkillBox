@@ -6,6 +6,10 @@ public class Main {
 
         Cargo misha = new Cargo(copyDimensions, 500, "Serbia", "653358LOX", true);
         System.out.println(misha);
+        System.out.println("");
+
+        Cargo copyCargo = misha.setAddress("Omsk");
+        System.out.println(copyCargo);
 
     }
 }
