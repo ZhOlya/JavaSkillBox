@@ -63,18 +63,19 @@ public class Cargo {
 
     }
     public void numbering (){
-        int boxNum = 0; // порядковый номер ящиков
-        int containerNum = 0;// порядковый номер контейнеров
-        for( int i = 1; i <= truck; i++){
-            System.out.println( "Грузовик " + i +":");
-            for (int y = 1; y <= 12; y++){
-                if (container <= containerNum)
+       int currentBoxNum = 0; // порядковый номер ящиков
+      int currentContainerNum = 0;// порядковый номер контейнеров
+
+        for( int numberOftruck = 1; numberOftruck <= truck; numberOftruck++){
+            System.out.println( "Грузовик " + numberOftruck +":");
+            for (int containerNum = 1; containerNum <= 12; containerNum++){
+                if (container <= currentContainerNum)
                     break;
-                System.out.println("\t" + "Контейнер " + ++containerNum + ":");
-                for ( int z = 1; z <= 27; z++){
-                    if (box <= boxNum)
+                System.out.println("\t" + "Контейнер " + ++currentContainerNum + ":");
+                for (int boxNum = 1; boxNum <= 27; boxNum++){
+                    if (box <= currentBoxNum)
                         break;
-                    System.out.println("\t" + "\t" +" Ящик " + ++boxNum);
+                    System.out.println("\t" + "\t" + "\t" +" Ящик " + ++currentBoxNum);
                 }
             }
         }
