@@ -10,12 +10,11 @@ public class Main {
         String number3 = "8-905-1234567";
         String number4 = "9-453-1234567";
         String number5 = "8-905-123";
-        String number6 = "905-1234567";
+        String number6 = "777777775677";
         String number7 = "8-905-12345672342";
 
         Cleaner enterNumber = new Cleaner();
-        enterNumber.cleanNum(number1);
-
+        enterNumber.cleanNum(number6);
 
     }
 }
