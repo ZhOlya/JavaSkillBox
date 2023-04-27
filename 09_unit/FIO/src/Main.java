@@ -5,9 +5,9 @@ public class Main {
 //        System.out.println("Пожайлуйста, введите ваши ФИО");
 //        String enterName = new Scanner(System.in).nextLine();
         //System.out.println(fullName);
-        Formatting fullName= new Formatting();
-        String check = " Garetson rrr Opp-ytt;
-        fullName.remake(check); "
+        Formatting2 fullName= new Formatting2();
+        String check = "Лохов Михаил Лох-оглы";
+        fullName.remark(check);
 
     }
 }
