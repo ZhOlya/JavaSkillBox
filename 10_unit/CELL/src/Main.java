@@ -7,7 +7,7 @@ public class Main {
         for (int i = 0; i < board.length; i++){        //Перебор масивов массива
             for (int y = 0; y < board[0].length; y++){ // Перебор значений в дочернем массиве
 
-                board[i][y] = (i == y || y == board.length - 1 - i) ? '0' : ' '; //
+                board[i][y] = (i == y || y == board.length - 1 - i) ? 'y' : ' '; //
 //                if (i == y){
 //                    board[i][y] = 'X';
 //                } else {
@@ -19,7 +19,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        char [][] cell = getTwoDimensionalArray(5);
+        char [][] cell = getTwoDimensionalArray(16);
         //System.out.println(Arrays.toString(cell));
         for (int x = 0; x < cell.length; x++){
             System.out.println(cell[x]);
