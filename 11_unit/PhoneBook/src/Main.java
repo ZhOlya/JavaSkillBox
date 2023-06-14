@@ -1,14 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        PhoneBook user = new PhoneBook();
-
-        String data = "Olga 3443434";
-        String data2 = "454545 Petya";
-        user.start(data);
-        user.start(data2);
-
-
+        System.out.println("Please, enter name or phone number or LIST");
+        PhoneBook firstText = new PhoneBook();
+        String string = new Scanner (System.in).nextLine();
+        firstText.start(string);
 
     }
 }
