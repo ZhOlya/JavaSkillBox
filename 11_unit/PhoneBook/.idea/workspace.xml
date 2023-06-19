@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56acd54a-b2ac-4779-8cb6-d04e128c4f87" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../EmailList/out/production/EmailList/EmailList.class" beforeDir="false" afterPath="$PROJECT_DIR$/../EmailList/out/production/EmailList/EmailList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TreeMap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TreeMap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TreeMap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TreeMap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TreeMap/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhoneBook/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhoneBook/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PhoneBook/PhoneBook.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PhoneBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PhoneBook.java" afterDir="false" />
     </list>
@@ -40,7 +46,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../09_unit/Phone_Numbers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

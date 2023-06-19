@@ -2,22 +2,28 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        while (true) {
 
-        System.out.println("Please, enter name or phone number or LIST");
-        PhoneBook firstText = new PhoneBook();
-        String string = new Scanner (System.in).nextLine();
-        firstText.start(string);
+            System.out.println("Please, enter name or phone number or LIST");
+            PhoneBook firstText = new PhoneBook();
+            String string = new Scanner(System.in).nextLine();
+            firstText.start(string);
+        }
 
     }
 }
 /*
 Напишите программу, которая будет работать как телефонная книга:
 Если вводим новое имя, программа просит ввести номер телефона и запоминает его.
+
 Если новый номер телефона — просит ввести имя и также запоминает.
+
 Если вводим существующее имя или номер телефона, программа выводит
 телефон(ы) или имя абонента соответственно.
+
 При вводе команды LIST программа печатает в консоль список всех абонентов
 в алфавитном порядке с номерами.
+
 Определяйте имя и телефон с помощью регулярных выражений.
 Подумайте, что выбрать в качестве ключа и значения для Map, и выберите лучший,
 по вашему мнению, вариант. Опишите, какие минусы и плюсы видите в своём выборе.
