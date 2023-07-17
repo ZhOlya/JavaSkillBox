@@ -7,6 +7,7 @@ public class PhoneBook {
     //String text = "";
     String name = "";
     String number = "";
+
     String regixNum = "[0-9]+";
     String regixLet = "[А-Яа-яA-Za-z -]+";
 
@@ -22,7 +23,8 @@ public class PhoneBook {
         }
     }
 
-    public void defineText(String fromUser){ //Определяем является ли текст именем или номером и в зависимости от этого определяем дальнейшую тактику
+
+    private void defineText(String fromUser){ //Определяем является ли текст именем или номером и в зависимости от этого определяем дальнейшую тактику
         String one = fromUser.trim();//Delete a space in start and end sentence
         if (one.matches(regixLet)){ // Если введенная строка является именем (key)
             name = one;
@@ -44,13 +46,13 @@ public class PhoneBook {
     }
 
     public void searchSubstring(){//Поиск подстроки в строках Списка
-        if (phoneNote.containsValue(number)){
-        for (String str : value) {
-            if (str.contains(number)) { //Если существует номер, то вызывается метод для получения имени этого номера
+        if (value.contains(number)){
+//        for (String str : value) {
+//            if (str.contains(number)) { //Если существует номер, то вызывается метод для получения имени этого номера
                 System.out.println("This number is already recorded:");
-                getKeyByValue(str);
-            }
-        }
+                getKeyByValue(number);
+//            }
+//        }
         } else { // Если новый номер, то просит ввести имя
             enterName();
         }
@@ -89,10 +91,12 @@ public class PhoneBook {
         String value = phoneNote.get(name);
         String newValue = value + ", " + number;
         phoneNote.put(name, newValue);
+        this.value.add(number);
     }
 
     public void addNamePhone(){ //Добляет новый контакт (Имя + номер)
         phoneNote.put(name, number);
+        value.add(number);
         System.out.println("Contact saved" + ": " + name + " - " + number);
     }
 

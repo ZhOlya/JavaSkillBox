@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(Math.max(8,5));
+        for (i = 1, i <= 10, i++) {
+            System.out.println("Hello");
+        }
     }
+
 }
