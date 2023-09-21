@@ -4,37 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d232a277-4eb0-45bb-a12f-e28b3c4396d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../14_unit/Company/Company.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/CompanyPartTwo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/src/BaseEmployee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/src/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/src/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/src/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/src/SalaryComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../14_unit/CompanyPartTwo/src/TopManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Check.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Operator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Check.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/check.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/out/production/check/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/check/src/Main.java" beforeDir="false" />
-    </list>
+    <list default="true" id="d232a277-4eb0-45bb-a12f-e28b3c4396d6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Новая папка/SkillboxJava/06_Unit/Task_02/ICompany" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../15_unit/15,14 Flight/11_AdvancedOOPFeatures/homework_11.2/Airport" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">

@@ -12,6 +12,8 @@ public class Company {
 
 
     public ArrayList<BaseEmployee> getTopSalaryStuff(int count) {
+
+
         Collections.sort(workers, comparator);
         return new ArrayList<BaseEmployee>(workers.subList(0, count));
     }
@@ -73,6 +75,8 @@ public class Company {
         }
         int firedAmount;
 
+
+//метод, удал€ющий процент сотрудников от общего количнсвта
     public void firePercentOfEmployees(int percent) {
         if (percent > 100) {
             percent = 100;
