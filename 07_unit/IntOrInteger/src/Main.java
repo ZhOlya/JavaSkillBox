@@ -9,12 +9,16 @@ public class Main {
         //  букв русского алфавита — заглавных и строчных, в том числе буквы Ё.
 
 
-        for(char symbol = 'А'; symbol <= 'я'; symbol ++){
-            int numb = symbol;
-            System.out.println(symbol + " - " + numb);
-        }
-        System.out.println("Ё" + " - " +(int)'Ё');
-        System.out.println("ё" + " - " + (int)'ё');
+//        for(char symbol = 'А'; symbol <= 'я'; symbol ++){
+//            int numb = symbol;
+//            System.out.println(symbol + " - " + numb);
+//        }
+//        System.out.println("Ё" + " - " +(int)'Ё');
+//        System.out.println("ё" + " - " + (int)'ё');
+
+        int x = 4;
+        int y =x++;
+        System.out.println(y);
 
     }
 }

@@ -1,0 +1,59 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("You can use LIST, ADD, EDIT, DELETE.");
+        while (true){
+            System.out.println("What do you want to do?");
+            String string = new Scanner(System.in).nextLine();
+            //System.out.println(string);
+            Action stringTask = new Action();
+            stringTask.action(string);
+        }
+    }
+}
+
+//Разработайте программу — список дел, который управляется командами в консоли.
+// Команды: LIST, ADD, EDIT, DELETE.
+//Для работы с данными списка дел в проекте находится класс TodoList, который
+// должен отвечать за хранение и работу со списком дел. Реализуйте все методы и
+// проверьте класс с помощью существующих тестов.
+//В классе Main напишите код для реализации взаимодействия с пользователем через
+// ввод команд в консоль.
+//Принцип работы команд:
+//
+
+//
+//
+//
+//Примеры работы со списком дел (жирным шрифтом выделен ввод пользователя)
+//
+//ADD buy milk
+//
+//Добавлено дело "buy milk"
+//
+//ADD learn java
+//
+//Добавлено дело "learn java"
+//
+//LIST
+//
+//0 - buy milk
+//
+//1 - learn java
+//
+//EDIT 0 make a cup of tea
+//
+//Дело "buy milk" заменено на "make a cup of tea"
+//
+//DELETE 1
+//
+//Дело "learn java" удалено
+//
+//LIST
+//
+//0 - make a cup of tea
+//
+//DELETE 100
+//
+//Дело с таким номером не существует
